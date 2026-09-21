@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nova Odonto | Projeto demonstrativo de site para clínica odontológica</title>
+  <meta name="description" content="Nova Odonto é um projeto demonstrativo de site para clínica odontológica, desenvolvido pela Saymon Digital. Informações ilustrativas.">
+  <meta name="theme-color" content="#0B1F3A">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Nova Odonto | Projeto demonstrativo">
+  <meta property="og:description" content="Seu sorriso merece cuidado em cada detalhe. Projeto demonstrativo desenvolvido pela Saymon Digital.">
+  <meta property="og:site_name" content="Nova Odonto">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230B1F3A'/%3E%3Ctext x='50' y='66' font-size='52' text-anchor='middle' fill='white' font-family='Georgia,serif'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <div class="demo-bar" role="note">
+    Projeto demonstrativo fictício — não representa uma clínica real.
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Nova Odonto — ir para o início">
+        <span class="logo__mark" aria-hidden="true">N</span>
+        <span class="logo__text">NOVA ODONTO</span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+          <li><a href="#faq" class="nav__link">FAQ</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+        <a href="https://wa.me/5548900000000" data-whatsapp target="_blank" rel="noopener" class="btn btn--primary nav__cta">Agendar atendimento</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="container hero__grid">
+        <div class="hero__text reveal">
+          <span class="eyebrow">Clínica odontológica · Santa Catarina</span>
+          <h1 id="hero-titulo">Seu sorriso merece cuidado em cada detalhe.</h1>
+          <p class="lead">Um espaço pensado para oferecer uma experiência odontológica acolhedora, moderna e profissional.</p>
+          <div class="hero__actions">
+            <a href="https://wa.me/5548900000000" data-whatsapp target="_blank" rel="noopener" class="btn btn--primary">Agendar atendimento</a>
+            <a href="#sobre" class="btn btn--ghost">Conhecer a clínica</a>
+          </div>
+          <p class="hero__note">Projeto demonstrativo — conteúdo ilustrativo.</p>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="false">
+          <div class="visual-card">
+            <div class="visual-card__glow"></div>
+            <svg class="tooth" viewBox="0 0 200 220" role="img" aria-label="Ilustração de um dente em estilo minimalista">
+              <defs>
+                <linearGradient id="toothGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#ffffff"/>
+                  <stop offset="1" stop-color="#DCE7F7"/>
+                </linearGradient>
+              </defs>
+              <path d="M100 20c-22-14-60-10-72 20-10 26 2 50 8 74 6 28 6 64 24 84 12 12 20-6 24-30 3-16 8-24 16-24s13 8 16 24c4 24 12 42 24 30 18-20 18-56 24-84 6-24 18-48 8-74-12-30-50-34-72-20z" fill="url(#toothGrad)" stroke="#1F5FBF" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M58 52c8-8 20-10 30-6" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+            </svg>
+            <span class="chip chip--one">Atendimento acolhedor</span>
+            <span class="chip chip--two">Informações claras</span>
+            <span class="chip chip--three">Contato fácil</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section section--gray" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container about">
+        <div class="reveal">
+          <span class="eyebrow">Sobre</span>
+          <h2 id="sobre-titulo">Um cuidado pensado para você</h2>
+        </div>
+        <div class="about__body reveal">
+          <p>A Nova Odonto é uma clínica odontológica fictícia, criada para demonstrar como um site pode apresentar um consultório com clareza, elegância e praticidade.</p>
+          <p>A proposta é comunicar um atendimento acolhedor, informações fáceis de encontrar e um caminho simples para o visitante entrar em contato e solicitar atendimento.</p>
+          <div class="notice" role="note">
+            <strong>Projeto demonstrativo.</strong> Esta clínica não existe. Textos, serviços e dados de contato são exemplos criados para portfólio.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Serviços</span>
+          <h2 id="servicos-titulo">Serviços odontológicos</h2>
+          <p class="section__sub">Exemplos demonstrativos de como os serviços de uma clínica podem ser apresentados. Cada caso deve ser avaliado por um profissional.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.2-4.2"/></svg>
+            </div>
+            <h3>Avaliação odontológica</h3>
+            <p>Um primeiro momento para conversar, entender suas necessidades e orientar os próximos passos.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.2 5.3L20 9l-4.4 3.8L17 18.5 12 15.5 7 18.5l1.4-5.7L4 9l5.8-.7z"/></svg>
+            </div>
+            <h3>Limpeza e prevenção</h3>
+            <p>Cuidados voltados à manutenção da saúde bucal no dia a dia, com orientações claras.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 20l6-6"/><path d="M14 4l6 6-8 8-6-6z"/></svg>
+            </div>
+            <h3>Restaurações</h3>
+            <p>Atendimento para restaurar dentes, conforme indicação e avaliação profissional.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6 7 7M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/></svg>
+            </div>
+            <h3>Clareamento dental</h3>
+            <p>Opção estética que depende de avaliação prévia para verificar a indicação em cada caso.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+            </div>
+            <h3>Tratamentos odontológicos</h3>
+            <p>Acompanhamento para diferentes necessidades, com planejamento definido após avaliação.</p>
+          </article>
+          <article class="card card--cta reveal">
+            <h3>Tem alguma dúvida?</h3>
+            <p>Fale com a equipe e saiba mais sobre como funciona o atendimento.</p>
+            <a href="https://wa.me/5548900000000" data-whatsapp target="_blank" rel="noopener" class="btn btn--light">Falar pelo WhatsApp</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section section--gray" id="diferenciais" aria-labelledby="dif-titulo">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Diferenciais</span>
+          <h2 id="dif-titulo">Uma experiência simples do início ao fim</h2>
+          <p class="section__sub">Princípios que este projeto demonstrativo busca transmitir.</p>
+        </div>
+
+        <div class="features">
+          <div class="feature reveal">
+            <span class="feature__num">01</span>
+            <h3>Atendimento humanizado</h3>
+            <p>Comunicação respeitosa e atenta às necessidades de cada pessoa.</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__num">02</span>
+            <h3>Ambiente acolhedor</h3>
+            <p>Um espaço pensado para que o paciente se sinta à vontade.</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__num">03</span>
+            <h3>Facilidade de contato</h3>
+            <p>Canais diretos e visíveis para falar com a clínica sem complicação.</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__num">04</span>
+            <h3>Informações claras</h3>
+            <p>Conteúdo objetivo para você entender cada etapa com tranquilidade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="section" id="como-funciona" aria-labelledby="como-titulo">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Como funciona</span>
+          <h2 id="como-titulo">Três passos simples</h2>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">1</span>
+            <h3>Entre em contato</h3>
+            <p>Envie uma mensagem pelo WhatsApp ou pelos canais de contato.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">2</span>
+            <h3>Tire suas dúvidas</h3>
+            <p>Converse com a equipe e entenda como funciona o atendimento.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">3</span>
+            <h3>Agende seu atendimento</h3>
+            <p>Escolha o melhor momento e confirme sua consulta.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--gray" id="faq" aria-labelledby="faq-titulo">
+      <div class="container faq">
+        <div class="section__head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-titulo">Perguntas frequentes</h2>
+          <p class="section__sub">Respostas genéricas, apenas para fins de demonstração.</p>
+        </div>
+
+        <div class="accordion reveal">
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__btn" aria-expanded="false" aria-controls="faq1" id="faq1-btn">
+                Como faço para agendar?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq1" role="region" aria-labelledby="faq1-btn">
+              <div><p>O agendamento é feito por contato direto com a clínica. Neste projeto demonstrativo, o botão de WhatsApp ilustra esse caminho.</p></div>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__btn" aria-expanded="false" aria-controls="faq2" id="faq2-btn">
+                Onde a clínica está localizada?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq2" role="region" aria-labelledby="faq2-btn">
+              <div><p>A Nova Odonto é fictícia e está situada, de forma ilustrativa, em Santa Catarina. Em um projeto real, o endereço completo apareceria na seção de contato.</p></div>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__btn" aria-expanded="false" aria-controls="faq3" id="faq3-btn">
+                Como posso entrar em contato?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq3" role="region" aria-labelledby="faq3-btn">
+              <div><p>Você pode usar o WhatsApp, o telefone ou visitar o endereço, todos apresentados na seção de contato. Os dados exibidos aqui são ilustrativos.</p></div>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__btn" aria-expanded="false" aria-controls="faq4" id="faq4-btn">
+                É possível tirar dúvidas pelo WhatsApp?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq4" role="region" aria-labelledby="faq4-btn">
+              <div><p>Sim, a ideia do site é facilitar esse contato. Em um projeto real, a equipe da clínica responderia às dúvidas por esse canal.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato" aria-labelledby="contato-titulo">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Contato</span>
+          <h2 id="contato-titulo">Fale com a Nova Odonto</h2>
+          <p class="section__sub">Informações ilustrativas — projeto demonstrativo.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-item reveal">
+            <h3>WhatsApp</h3>
+            <p>(48) 90000-0000</p>
+            <a href="https://wa.me/5548900000000" data-whatsapp target="_blank" rel="noopener" class="link">Enviar mensagem →</a>
+          </div>
+          <div class="contact-item reveal">
+            <h3>Telefone</h3>
+            <p>(48) 0000-0000</p>
+            <a href="#contato" class="link" data-note="Número ilustrativo">Número ilustrativo</a>
+          </div>
+          <div class="contact-item reveal">
+            <h3>Endereço</h3>
+            <p>Rua Exemplo, 000 — Centro<br>Santa Catarina, Brasil</p>
+            <a href="#faq" class="link">Ver dúvidas →</a>
+          </div>
+          <div class="contact-item reveal">
+            <h3>Horário</h3>
+            <p>Segunda a sexta<br>08h às 18h</p>
+            <a href="#como-funciona" class="link">Como funciona →</a>
+          </div>
+        </div>
+        <p class="contact-note reveal">Informações ilustrativas — projeto demonstrativo.</p>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta" aria-labelledby="cta-titulo">
+      <div class="container cta__inner reveal">
+        <h2 id="cta-titulo">Pronto para cuidar do seu sorriso?</h2>
+        <p>Fale com a equipe e tire suas dúvidas de forma simples e rápida.</p>
+        <a href="https://wa.me/5548900000000" data-whatsapp target="_blank" rel="noopener" class="btn btn--light">Falar pelo WhatsApp</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#inicio" class="logo logo--light" aria-label="Nova Odonto — voltar ao topo">
+          <span class="logo__mark" aria-hidden="true">N</span>
+          <span class="logo__text">NOVA ODONTO</span>
+        </a>
+        <p class="footer__text">Projeto demonstrativo desenvolvido pela Saymon Digital.</p>
+      </div>
+      <p class="footer__copy">© 2026 Nova Odonto — Projeto Demonstrativo</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5548900000000" data-whatsapp target="_blank" rel="noopener" class="whats-float" aria-label="Falar pelo WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.2L2 22l4.9-1.3A11 11 0 0 0 20.5 3.5zM12 20a8.9 8.9 0 0 1-4.5-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8.9 8.9 0 1 1 12 20zm4.9-6.6c-.3-.1-1.6-.8-1.8-.9-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a7.3 7.3 0 0 1-3.6-3.1c-.3-.5.3-.5.8-1.5.1-.2 0-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.900 11.900 0 0 0 4.600 4.100c1.700.7 2.300.8 3.100.7.500-.1 1.600-.7 1.800-1.300s.2-1.200.2-1.300-.3-.2-.6-.3z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
